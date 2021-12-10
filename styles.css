@@ -6,13 +6,29 @@ body {
    background-image: linear-gradient(to right,#87AAAA,#C8E3D4);
    margin: 0;
    min-height: 100vh;
+}
+
+img {
+   height: 50px;
+   width: 100px;
+}
+
+h1 {
    display: flex;
    justify-content: center;
    align-items: center;
+   font-family: helvetica, sans-serif;
+   font-size: 5rem;
+   color: #FEE041;
+   margin: 0px 0px 20px 0px;
+   width: 100vw;
+   background-color: #316B83;
 }
 
 .piano {
    display: flex;
+   justify-content: center;
+   margin-top: 50px;
 }
 
 .key {
